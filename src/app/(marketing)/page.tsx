@@ -105,19 +105,13 @@ export default function MarketingPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <Link href="/dashboard">
+                <Link
+                  href="https://github.com/sooyoung159/next-admin-starter-begin"
+                  target="_blank"
+                >
                   <Button
                     size="lg"
                     className="h-12 px-8 text-lg shadow-lg shadow-primary/25 transition-all hover:shadow-primary/40 hover:scale-105"
-                  >
-                    {t("viewDemo")}
-                  </Button>
-                </Link>
-                <Link href="https://github.com/your-id/repo" target="_blank">
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="h-12 px-8 text-lg border-2 transition-all hover:scale-105"
                   >
                     {t("viewGithub")}
                   </Button>
